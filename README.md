@@ -9,8 +9,10 @@ Download the [suse_manager_info.sh](scripts/suse_manager_info.sh) and [last_upda
 Once downloaded, modify the `last_update.py` and change the `MANAGER_PASSWORD` to match your SUMA Admin password, if you use a different login name other than `admin` then update the `MANAGER_LOGIN` as well.
 
 Execute
-`zypper ref && zypper in -y spacewalk-utils* inter-server-sync`
-`chmod +x suse_manager_info.sh && sh ./suse_manager_info.sh`
+```bash
+zypper ref && zypper in -y spacewalk-utils* inter-server-sync
+chmod +x suse_manager_info.sh && sh ./suse_manager_info.sh
+```
 
 Submit a ticket with the output of the `suma_info.txt`
 
