@@ -2,7 +2,7 @@
 
 ### These scripts are designed to help RGS setup support and package updates for your SUSE Manager instance.
 
-### Instructions
+## Instructions
 
 Download the [suse_manager_info.sh](scripts/suse_manager_info.sh) and [last_update.py](scripts/last_update.py)
 
