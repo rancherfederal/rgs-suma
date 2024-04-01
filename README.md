@@ -25,5 +25,6 @@ These two scripts return the following information that will be critical in sett
      (retrieved via a `spacewalk-remove-channel -l`)
 3. Last date the product channels were updated
      (this is retrieved from the last_update.py where it calls the API calls from SUSE Manager)
+4. The last thing we need is your IP or IP Range, (we can also whitelist a set of CIDR) of your public IP address.
 
 # *NO PRIVATE DATA IS RETRIEVED*
